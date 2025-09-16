@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>HTML5 Practical — Extras</title>
+  <meta name="description" content="Extras page demonstrating tables, interactive HTML5 elements, and microcontent." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://example.com/extras.html" />
+</head>
+<body>
+  <a href="#main">Skip to content</a>
+
+  <header>
+    <h1>Sidemen Extras</h1>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="extras.html" aria-current="page">Extras</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <article>
+      <header>
+        <h2>Study Plan — Sidemen Edition</h2>
+      </header>
+
+      <!-- TABLE -->
+      <table>
+        <caption>Weekly Sidemen Content Plan</caption>
+        <thead>
+          <tr>
+            <th scope="col">Week</th>
+            <th scope="col">Content</th>
+            <th scope="col">Hours</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Sidemen Sunday (Football Match)</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>MoreSidemen Gaming Session</td>
+            <td>5</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th scope="row" colspan="2">Total</th>
+            <td>8</td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <!-- DETAILS -->
+      <details>
+        <summary>What is Side+?</summary>
+        <p><code>&lt;sideplus&gt;</code> is the Sidemen’s premium membership platform with exclusive videos and behind-the-scenes content.</p>
+      </details>
+
+      <!-- DIALOG -->
+      <dialog open>
+        <p>Welcome to the <mark>extras</mark> page! This is a sample dialog box, open by default.</p>
+      </dialog>
+
+      <!-- PROGRESS & METER -->
+      <section>
+        <h3>Progress & Stats</h3>
+        <p>Charity Match Fundraising Progress: 
+          <progress value="95" max="100">95%</progress>
+        </p>
+        <p>Fan Excitement Level: 
+          <meter min="0" max="100" low="30" high="80" optimum="90" value="85">85%</meter>
+        </p>
+      </section>
+
+      <footer>
+        <p>Updated on <time datetime="2025-09-16">September 16, 2025</time></p>
+      </footer>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; <time datetime="2025">2025</time> Sidemen Fan Site. All rights reserved.</p>
+  </footer>
+</body>
+</html>
